@@ -5,4 +5,6 @@ class Couleur {
   Couleur.vert() : r = 0, g = 255, b = 0;
   Couleur.bleu() : r = 0, g = 0, b = 255;
 }
-void main() {}
+  void afficherCouleur() {
+    print("(R :r, V :g, B :b)");
+  }
