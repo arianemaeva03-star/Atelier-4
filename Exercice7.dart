@@ -6,9 +6,13 @@ class Tache {
   }
 }
 void main() {
-  var t1 = Tache("Aller a la salle de sport");
-  var t2 = Tache("Prendre mon dejeuner");
-  var t3 = Tache("faire mes exercice");
+  var T1 = Tache("Aller a la salle de sport");
+  var T2 = Tache("Prendre mon dejeuner");
+  var T3 = Tache("faire mes exercice");
+
+  print("Tache1: ${T1.description}");
+  print("Tache2: ${T2.description}");
+  print("Tache3: ${T3.description}");
 
   print("Nombre total de tâches : ${Tache.nombreTotal}");
 }
