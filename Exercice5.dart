@@ -23,3 +23,13 @@ class Rectangle extends Forme {
   @override
   double calculerAire() => longueur * largeur;
 }
+void main() {
+  var cercle = Cercle(8);
+  var rectangle = Rectangle(8, 5);
+
+  cercle.afficherMessage();
+  print("Aire du cercle : ${cercle.calculerAire()}");
+
+  rectangle.afficherMessage();
+  print("Aire du rectangle : ${rectangle.calculerAire()}");
+}
