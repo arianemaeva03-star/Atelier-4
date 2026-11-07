@@ -8,3 +8,8 @@ class Compte {
     if (montant > 0) _solde += montant;
   }
 }
+void main() {
+  var compte = Compte("CPT-001");
+  compte.depot(150);
+  print("Solde : ${compte.solde}");
+}
