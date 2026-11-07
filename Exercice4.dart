@@ -30,10 +30,10 @@ class Film extends Media {
 void main() {
   List<Media> catalogue = [];
 
-  catalogue.add(Livre("Le Petit Prince", "Antoine de Saint-Exupéry"));
-  catalogue.add(Livre("L'Étranger", "Albert Camus"));
-  catalogue.add(Film("Inception", 148));
-  catalogue.add(Film("Titanic", 195));
+  catalogue.add(Livre("Trois pretendants un mari", "Guillaume Oyono"));
+  catalogue.add(Livre("sous la cendre le feu", "Evelyne Mpoudi"));
+  catalogue.add(Film("mami watw", 107));
+  catalogue.add(Film("The fisherman's", 143));
 
   for (var m in catalogue) {
     m.afficherType();
