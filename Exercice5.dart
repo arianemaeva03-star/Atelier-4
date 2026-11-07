@@ -1,3 +1,4 @@
+import 'dart:math';
 abstract class Forme {
   double calculerAire();
 
@@ -5,5 +6,11 @@ abstract class Forme {
     print("Calcul de l'aire...");
   }
 }
+class Cercle extends Forme {
+  final double rayon;
 
-void main() {}
+  Cercle(this.rayon);
+
+  @override
+  double calculerAire() => pi * rayon * rayon;
+}
