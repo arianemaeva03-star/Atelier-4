@@ -15,6 +15,16 @@ class Livre {
     print("Nombre total de livres : $totalLivres");
   }
 }
+class Roman extends Livre {
+  String genre;
+
+  Roman(super.titre, super.auteur, this.genre);
+
+  @override
+  void afficherInfos() {
+    print("Titre: $titre, Auteur: $auteur, Genre: $genre");
+  }
+}
 void main() {
   var l1 = Livre("sous la cendre le feu", "Evelyne Mpoudi Ngole");
   var l2 = Livre("les maquisards", "Hemley Boum");
