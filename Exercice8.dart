@@ -30,8 +30,12 @@ void main() {
   var l2 = Livre("les maquisards", "Hemley Boum");
   l1.afficherInfos();
   l2.afficherInfos();
-
    print("Pages de l1 : ${l1.pages}");
+  var r1 = Roman("Le Crime de l'Orient-Express", "Agatha Christie", "Policier");
+  var r2 = Roman("Dune", "Frank Herbert", "Science-fiction");
+  r1.afficherInfos();
+  r2.afficherInfos();
+  Livre.afficherTotal();
   Livre.afficherTotal();
 }
  
